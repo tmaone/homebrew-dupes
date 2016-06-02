@@ -13,7 +13,7 @@ class Nano < Formula
   end
 
   head do
-    url "svn://svn.sv.gnu.org/nano/trunk/nano"
+    url "git://git.savannah.gnu.org/nano.git"
     depends_on "automake" => :build
     depends_on "autoconf" => :build
   end
